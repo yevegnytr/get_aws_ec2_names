@@ -10,7 +10,7 @@ Using Ansible dynamic inventory or boto3 was looking like a serious overkill for
 The script use aws cli in order to fetch data and make a readeatle table from it. In addition, it will generate a CSV file that can be used later. You will need to connect to the AWS account first so `aws` command can be used.
 
 # Example:
-`
+```
 $ get_ec2_instance_names.sh
 Retrieving avaialble regions from AWS...
 1) ap-south-1        5) ap-northeast-2   9) ap-southeast-1  13) us-east-2
@@ -30,7 +30,8 @@ some-other-name                         i-qwerty1234
 
 Creating a CSV with the results...
 Your result is saved as "ec2-name-result.csv"
-`
+```
+
 # TODO:
  - Command line options
  - Unique name for each report based on account ID
