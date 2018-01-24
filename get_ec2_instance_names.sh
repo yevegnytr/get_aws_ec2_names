@@ -7,7 +7,7 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 # Get all available regions
-echo "etting avaialble regions from AWS..."
+echo "Retrieving avaialble regions from AWS..."
 aws ec2 describe-regions --query 'Regions[].{Name:RegionName}' --output text > regions.txt
 
 # Select the region from menu
