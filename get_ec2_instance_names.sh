@@ -1,6 +1,6 @@
 #!/bin/bash
 # A quick and dirty script to enum EC2 instances with IDs and name tags.
-# Written by Yevgeny Trachtinov
+# Written by Yevgeny Trachtinov (jendoz@gmail.com)
 
 # Text effects
 bold=$(tput bold)
